@@ -693,6 +693,7 @@ GameObject:
   - component: {fileID: 1576306262}
   - component: {fileID: 1576306261}
   - component: {fileID: 1576306260}
+  - component: {fileID: 1576306264}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -806,7 +807,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.01918
     y: 64.09967
-    width: 119.55644
+    width: 122.497444
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -817,6 +818,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1576306259}
   - {fileID: 1576306256}
+  - {fileID: 1576306264}
   - {fileID: 1576306239}
   - {fileID: 1576306255}
   suppressAllAutoSelections: 0
@@ -833,18 +835,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -20.31124, y: 38.62942}
+  scrollPos: {x: -16.879663, y: 39.933033}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 393.8
-  zoom: 0.71308994
+  zoom: 0.7034731
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1576306241}
   selectedCommands: []
   variables:
   - {fileID: 1576306246}
@@ -946,7 +949,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 279.66763
     y: 105.43791
-    width: 97.11888
+    width: 99.75314
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -991,7 +994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 278.05817
     y: 157.00612
-    width: 101.60639
+    width: 104.0177
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1065,7 +1068,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271.94266
     y: 216.8969
-    width: 99.36264
+    width: 102.59618
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1121,7 +1124,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 626.1254
     y: 110.01942
-    width: 116.19081
+    width: 116.81137
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1311,3 +1314,23 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1576306264
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
