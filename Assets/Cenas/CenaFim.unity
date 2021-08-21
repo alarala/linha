@@ -219,6 +219,9 @@ GameObject:
   - component: {fileID: 1502173505}
   - component: {fileID: 1502173504}
   - component: {fileID: 1502173503}
+  - component: {fileID: 1502173510}
+  - component: {fileID: 1502173509}
+  - component: {fileID: 1502173508}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -240,7 +243,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: FIM!
+  storyText: 'Obrigada por jogar!
+
+    Time Linha
+
+    Woman Game Jam'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -284,15 +291,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66
     y: 70
-    width: 111
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: New Block
+  blockName: Creditos
   description: 
   eventHandler: {fileID: 1502173504}
   commandList:
+  - {fileID: 1502173510}
   - {fileID: 1502173503}
   suppressAllAutoSelections: 0
 --- !u!114 &1502173506
@@ -319,8 +327,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1502173505}
+  selectedCommands:
+  - {fileID: 1502173503}
   variables: []
   description: 
   stepPause: 0
@@ -346,6 +356,77 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1502173508
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502173502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Menu
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1502173509
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502173502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 289
+    y: 109
+    width: 83.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 3
+  blockName: Voltar
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1502173508}
+  suppressAllAutoSelections: 0
+--- !u!114 &1502173510
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502173502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  text: Voltar para o menu
+  description: 
+  targetBlock: {fileID: 1502173509}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &2086969553
 GameObject:
   m_ObjectHideFlags: 1
