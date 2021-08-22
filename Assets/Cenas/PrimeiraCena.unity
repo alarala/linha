@@ -861,6 +861,21 @@ GameObject:
   - component: {fileID: 1576306268}
   - component: {fileID: 1576306267}
   - component: {fileID: 1576306260}
+  - component: {fileID: 1576306276}
+  - component: {fileID: 1576306275}
+  - component: {fileID: 1576306274}
+  - component: {fileID: 1576306273}
+  - component: {fileID: 1576306282}
+  - component: {fileID: 1576306281}
+  - component: {fileID: 1576306280}
+  - component: {fileID: 1576306279}
+  - component: {fileID: 1576306278}
+  - component: {fileID: 1576306277}
+  - component: {fileID: 1576306287}
+  - component: {fileID: 1576306286}
+  - component: {fileID: 1576306285}
+  - component: {fileID: 1576306284}
+  - component: {fileID: 1576306283}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -882,9 +897,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: 'Achou
-
-'
+  storyText: "Mar tranquilo nunca fez bom marinheiro: mas talvez eu seja o pr\xF3prio
+    mar inquieto da vida.\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -972,9 +986,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 136.00548
-    y: 64.09967
-    width: 85.189896
+    x: 134.94647
+    y: 63.092125
+    width: 82.54328
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -987,6 +1001,9 @@ MonoBehaviour:
   - {fileID: 1576306259}
   - {fileID: 1576306256}
   - {fileID: 1576306267}
+  - {fileID: 1576306282}
+  - {fileID: 1576306281}
+  - {fileID: 1576306280}
   - {fileID: 1576306264}
   - {fileID: 1576306239}
   - {fileID: 1576306255}
@@ -1004,11 +1021,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 316.7871, y: -61.761356}
+  scrollPos: {x: 300.82297, y: -24.248371}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 393.8
-  zoom: 0.94427586
+  zoom: 0.992511
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1016,7 +1033,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1576306272}
+  - {fileID: 1576306252}
   selectedCommands: []
   variables:
   - {fileID: 1576306246}
@@ -1058,7 +1075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: achou!
+  storyText: "Uma vez me disseram que o cora\xE7\xE3o era terra que ningu\xE9m passeia.\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1086,7 +1103,7 @@ MonoBehaviour:
   parentBlock: {fileID: 1576306247}
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 240826616}
-  waitFrames: 5
+  waitFrames: 1
 --- !u!114 &1576306246
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1116,9 +1133,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 280.9769
-    y: 105.43791
-    width: 61.891617
+    x: 279.91788
+    y: 103.37135
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1127,9 +1144,12 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1576306245}
   commandList:
+  - {fileID: 1576306276}
   - {fileID: 1576306244}
+  - {fileID: 1576306287}
   - {fileID: 1576306257}
   - {fileID: 1576306258}
+  - {fileID: 1576306279}
   suppressAllAutoSelections: 0
 --- !u!114 &1576306248
 MonoBehaviour:
@@ -1161,9 +1181,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 277.002
-    y: 157.00612
-    width: 66.12767
+    x: 274.03085
+    y: 160.02876
+    width: 63.399914
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1172,9 +1192,13 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1576306248}
   commandList:
+  - {fileID: 1576306275}
   - {fileID: 1576306237}
+  - {fileID: 1576306286}
+  - {fileID: 1576306285}
   - {fileID: 1576306263}
   - {fileID: 1576306262}
+  - {fileID: 1576306278}
   suppressAllAutoSelections: 0
 --- !u!114 &1576306250
 MonoBehaviour:
@@ -1190,9 +1214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: 'Achou!
-
-'
+  storyText: "Sonhos tamb\xE9m naufragam.\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1235,9 +1257,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 272.9988
-    y: 215.84074
-    width: 64.00964
+    x: 269.87326
+    y: 213.77419
+    width: 61.384823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1246,9 +1268,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1576306251}
   commandList:
+  - {fileID: 1576306274}
   - {fileID: 1576306250}
   - {fileID: 1576306261}
   - {fileID: 1576306268}
+  - {fileID: 1576306277}
   suppressAllAutoSelections: 0
 --- !u!114 &1576306253
 MonoBehaviour:
@@ -1293,7 +1317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 625.1117
     y: 110.01942
-    width: 78.835815
+    width: 76.49801
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1403,7 +1427,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1576306260
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1546,7 +1570,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1576306267
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1578,7 +1602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 1924234480}
   _visible:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1598,9 +1622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: 'Achou!
-
-'
+  storyText: "Se pudesse, morava na minha inf\xE2ncia.\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1648,7 +1670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1576306272}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
+  clickableObject: {fileID: 1924234478}
   waitFrames: 1
 --- !u!114 &1576306272
 MonoBehaviour:
@@ -1665,8 +1687,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 276.42596
-    y: 293.08368
-    width: 64.00964
+    y: 294.09122
+    width: 61.384823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1675,10 +1697,326 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1576306271}
   commandList:
+  - {fileID: 1576306273}
   - {fileID: 1576306269}
+  - {fileID: 1576306284}
+  - {fileID: 1576306283}
   - {fileID: 1576306260}
   - {fileID: 1576306270}
   suppressAllAutoSelections: 0
+--- !u!114 &1576306273
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 35
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: f44c57c4b224a6747a0eb427d81d2a4c, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &1576306274
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 039c6c88bfa672a40883547e872d615e, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &1576306275
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 33
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: b8056a36fd023c142b51fbb35b2b722c, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &1576306276
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 32
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: b8056a36fd023c142b51fbb35b2b722c, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &1576306277
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  indentLevel: 0
+  targetClickable2D: {fileID: 1924234478}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1576306278
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  indentLevel: 0
+  targetClickable2D: {fileID: 1481031080}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1576306279
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 0
+  targetClickable2D: {fileID: 1364839865}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1576306280
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  indentLevel: 0
+  targetClickable2D: {fileID: 1924234478}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1576306281
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  indentLevel: 0
+  targetClickable2D: {fileID: 1481031080}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1576306282
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+  targetClickable2D: {fileID: 1364839865}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1576306283
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  storyText: "A gente \xE9 uma curiosidade nascente, sem ter ideia que todos os caminhos
+    desaguam no mesmo destino. A calunga grande \xE9 maior do que pensei."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1576306284
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 45
+  indentLevel: 0
+  storyText: "Quando a vida da gente \xE9 s\xF3 um riachinho."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1576306285
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 0
+  storyText: "Muitos metros de fedura at\xE9 o cora\xE7\xE3o."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1576306286
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  storyText: Quem me navega?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1576306287
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576306236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  indentLevel: 0
+  storyText: "Mas desde que me mudei pra cidade grande, meu cora\xE7\xE3o tem sido
+    pisoteado por gente muita."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1623939546
 GameObject:
   m_ObjectHideFlags: 0
