@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 118679376}
   - component: {fileID: 118679375}
   m_Layer: 0
-  m_Name: Coffee Cup
+  m_Name: Cabaca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bcd5b5f11de95ec4ba92005e4a404502, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4b6b7d771163e4f158dd3cd036c23b38, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 828317143}
   suppressBlockAutoSelect: 0
-  waitForFrames: 1
+  waitForFrames: 0
 --- !u!114 &828317143
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -387,9 +387,9 @@ MonoBehaviour:
   - {fileID: 828317151}
   - {fileID: 828317150}
   - {fileID: 828317141}
+  - {fileID: 828317154}
   - {fileID: 828317152}
   - {fileID: 828317153}
-  - {fileID: 828317154}
   - {fileID: 828317149}
   - {fileID: 828317148}
   - {fileID: 828317147}
@@ -419,10 +419,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 828317143}
-  selectedCommands:
-  - {fileID: 828317154}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -634,7 +632,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &828317154
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -704,7 +702,7 @@ GameObject:
   - component: {fileID: 1306426754}
   - component: {fileID: 1306426753}
   m_Layer: 0
-  m_Name: Coffee Cup (1)
+  m_Name: CabacaQuebrada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -750,7 +748,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bcd5b5f11de95ec4ba92005e4a404502, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4b6b7d771163e4f158dd3cd036c23b38, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
